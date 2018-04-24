@@ -1,0 +1,62 @@
+body{
+	background: rgba(225,61,80,1);
+background: -moz-linear-gradient(top, rgba(225,61,80,1) 0%, rgba(135,48,109,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(225,61,80,1)), color-stop(100%, rgba(135,48,109,1)));
+background: -webkit-linear-gradient(top, rgba(225,61,80,1) 0%, rgba(135,48,109,1) 100%);
+background: -o-linear-gradient(top, rgba(225,61,80,1) 0%, rgba(135,48,109,1) 100%);
+background: -ms-linear-gradient(top, rgba(225,61,80,1) 0%, rgba(135,48,109,1) 100%);
+background: linear-gradient(to bottom, rgba(225,61,80,1) 0%, rgba(135,48,109,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e13d50', endColorstr='#87306d', GradientType=0 );
+	height: 560px;
+	color:white;
+}
+
+.wrapper{
+	text-align: center;
+	margin-bottom: 120px;
+
+}
+
+.user{
+	margin-bottom: 30px;
+}
+
+.user h5{
+	line-height: 1px;
+}
+
+hr{
+	width:40%;
+}
+.input-search{
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	border:0px;
+	margin-right:33px;
+	color:black;
+	font-style:normal;
+}
+.search{
+	font-style:italic;
+	display:inline-block;
+	font-style: bold;
+}
+.search p{
+	text-align: left;
+	margin-left:10px;
+	font-size: 12px;
+	line-height: 5px;
+}
+
+button{
+	clear: left;
+	border-radius: 30px;
+	border:0px;
+	color:red;
+	background-color: white;
+	width: 100px;
+	padding:5px;
+	margin-top: 50px;
+
+}
